@@ -90,7 +90,7 @@ function Navbar() {
                   </div>}
                   <div className="flow-root">
                     <Link to={'/'} className="-m-2 block p-2 font-medium text-gray-900 cursor-pointer">
-                      <img
+                      <img 
                         className="inline-block w-10 h-10 rounded-full"
                         url="https://media.licdn.com/dms/image/D5603AQFvBIcvhtMLuA/profile-displayphoto-shrink_200_200/0/1691832667664?e=2147483647&v=beta&t=GFfY7fOQz0w80PoE0f7HN7jyBOu3F_SNqamd4E3mWwA"
                         alt="Satendra lodhi" />                                        </Link>
@@ -151,7 +151,7 @@ function Navbar() {
                     All Products
                   </Link>
                  {user ?  <Link to={'/order'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
-                    Order
+                    ORDER
                   </Link> :   <Link to={'/signup'}  className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                       Signup
                     </Link>}
